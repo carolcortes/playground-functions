@@ -72,7 +72,7 @@ function fizzBuzz(array) {
 }
 
 // Desafio 9
-function encode() {
+function encode(string) {
   // seu código aqui
 }
 function decode() {
@@ -80,8 +80,8 @@ function decode() {
 }
 
 // Desafio 10
-function techList() {
-  // seu código aqui
+function techList(tech, name) {
+
 }
 
 module.exports = {
