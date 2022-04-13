@@ -73,16 +73,45 @@ function fizzBuzz(array) {
 
 // Desafio 9
 function encode(string) {
-  // seu código aqui
-  //replace
+  let code = {
+    a: 1,
+    e: 2,
+    i: 3,
+    o: 4,
+    u: 5,
+  };
+  // eslint-disable-next-line guard-for-in
+  for (let key in code) {
+    for (let letter of string) {
+      if (key === letter) {
+        string = string.replace(key, code[key]);
+      }
+    }
+  }
+  return string;
 }
-function decode() {
-  // seu código aqui
+function decode(string) {
+  let code = {
+    1: 'a',
+    2: 'e',
+    3: 'i',
+    4: 'o',
+    5: 'u',
+  };
+  // eslint-disable-next-line guard-for-in
+  for (let key in code) {
+    for (let number of string) {
+      if (key === number) {
+        string = string.replace(key, code[key]);
+      }
+    }
+  }
+  return string;
 }
 
 // Desafio 10
 function techList(tech, name) {
-
+  // seu código aqui
 }
 
 module.exports = {
