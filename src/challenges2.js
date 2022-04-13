@@ -1,16 +1,22 @@
 // Desafio 11
+// eslint-disable-next-line complexity
 function generatePhoneNumber(array) {
-  if (array.length > 11) {
-    return 'Array com tamanho incorreto.';
-  }
-  for (let number of array) {
-    if (number < 0 || number > 9) {
-      return 'não é possível gerar um número de telefone com esses valores';
+  let cont = 0;
+  let r = `(${array.slice(0, 2).join('')}) ${array.slice(2, 7).join('')}-${array.slice(7).join('')}`;
+  for (let index = 0; index <= array.length; index += 1) {
+    if (array[index] === array[index + 1]) {
+      cont += 1;
+    }
+    if (array[index] > 9 || array[index] < 0 || cont >= 3) {
+      r = 'não é possível gerar um número de telefone com esses valores';
+    }
+    if (array.length !== 11) {
+      r = 'Array com tamanho incorreto.';
     }
   }
-  return `(${array.slice(0, 2).join('')}) ${array.slice(2, 7).join('')}-${array.slice(7, 12).join('')}`;
+  return r;
 }
-// [1, 2, 3, 4, 5, 6, 7, 8, 9, 0, 1]
+
 // Desafio 12
 function triangleCheck(lineA, lineB, lineC) {
   let triangle = false;
