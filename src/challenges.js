@@ -24,6 +24,7 @@ function footballPoints(wins, ties) {
 }
 
 // Desafio 6
+// eslint-disable-next-line sonarjs/cognitive-complexity
 function highestCount(array) {
   let maior = array[0];
   let cont = 0;
@@ -56,6 +57,7 @@ function catAndMouse(mouse, cat1, cat2) {
 }
 
 // Desafio 8
+// eslint-disable-next-line sonarjs/cognitive-complexity
 function fizzBuzz(array) {
   for (let index in array) {
     if (array[index] % 15 === 0) {
@@ -72,6 +74,7 @@ function fizzBuzz(array) {
 }
 
 // Desafio 9
+// eslint-disable-next-line sonarjs/cognitive-complexity
 function encode(string) {
   let code = {
     a: 1,
@@ -90,6 +93,7 @@ function encode(string) {
   }
   return string;
 }
+// eslint-disable-next-line sonarjs/cognitive-complexity
 function decode(string) {
   let code = {
     1: 'a',
