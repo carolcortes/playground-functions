@@ -118,15 +118,15 @@ function techList(tech, name) {
   let obj = {};
   let result = [];
   if (tech.length === 0) {
-    return 'Vazio!'
+    return 'Vazio!';
   }
   for (let value of tech.sort()) {
     obj.tech = value;
     obj.name = name;
-    result.push(obj)
+    result.push(obj);
     obj = {};
   }
-  return result
+  return result;
 }
 
 module.exports = {
