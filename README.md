@@ -24,6 +24,8 @@
 - Utilizar o comando for/in ;
 - Utilizar funções para organizar e estruturar o seu código;
 
+#### Avaliação de desempenho:
+
 ![image](https://user-images.githubusercontent.com/98475840/202766414-ca1392c7-72b9-4e23-9630-5e628a705bca.png)
 
 ![image](https://user-images.githubusercontent.com/98475840/202766946-19639b2e-764d-4275-b391-9fff57698fb0.png)
