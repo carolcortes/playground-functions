@@ -1,7 +1,7 @@
 # Projeto Playground Functions :ferris_wheel:
 ``Abril/2022``
 
-> Projeto desenvolvido no Bloco Bloco 4 - Introdução à JavaScript e Lógica de Programação, no módulo de Fundamentos de Desenvolvimento Web, na [Trybe](https://www.betrybe.com/).
+> Projeto desenvolvido no Bloco 4 - Introdução à JavaScript e Lógica de Programação, no módulo de Fundamentos de Desenvolvimento Web, na [Trybe](https://www.betrybe.com/).
 
 ## O que foi desenvolvido:
   - Nos arquivos ``src/challenges.js`` e ``src/challenges2.js``, foram realizadas implementações de funções a partir de requisitos especificados para o correto comportamento de cada uma delas.
